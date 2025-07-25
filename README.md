@@ -1,7 +1,5 @@
 # 概述
 
-zread总结：https://zread.ai/Cctqlhh/rthw/1-overview
-
 该存储库包含一个多机器人物流系统的模拟，包括路径规划和资源收集。模拟中的机器人在2D网格中导航，收集物品并将其运送到泊位，船只再将这些物品运送到虚拟点以产生价值。系统使用D* Lite算法进行路径规划，使机器人在避开障碍物和其他机器人的同时高效导航。
 
 # 
@@ -89,6 +87,8 @@ zread总结：https://zread.ai/Cctqlhh/rthw/1-overview
 这种设计通过将计算密集型的路径规划操作卸载到单独的线程，提高了性能。
 
 
+# zread：
+https://zread.ai/Cctqlhh/rthw/1-overview
 
 
 # 思路梳理
